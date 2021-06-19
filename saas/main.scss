@@ -1,0 +1,95 @@
+$bg-op: rgb(97, 173, 224);
+$bg-y:plum;
+$bg-e:paleturquoise;
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: myFirstFont;
+src: url(sansation_light.woff);
+}
+
+
+header{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.head{
+    text-align: center;
+    // border: 5px solid royalblue;
+}
+.kp{
+    background-color: $bg-op;
+}
+.hw{
+    text-align: center;
+    background-color:$bg-y;
+}
+
+.navbar {.container-fluid{
+    background: $bg-e;
+}
+}
+.carousel-inner{
+   width: 100%;
+   height: 100%;
+}
+
+
+body{
+    // background-image: url(/boh.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    background-size: cover;  
+    position: relative;
+    
+    img{
+        height: 100px;
+    }
+
+    .mix{
+        position: relative;
+        padding-left: 5px;
+        justify-items: space-between;
+        margin-top: 40px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .imp{
+        display: inline-flex;
+        .card{
+            margin-left: 80px;
+            margin-right: 30px;
+            
+     }
+
+    }
+
+    .cl{
+        height:40px ;
+        background: olivedrab;
+        margin: 5px  0px 5px 0px;
+    }
+     
+       
+}
+
+
+
+ 
+.d-block {.w-100{
+    height: 250px;
+}}
+footer{
+    background-color: peru;
+    margin-top: 10px;
+}
+.d-block {
+    display: block !important;
+    height: 400px;
+}
